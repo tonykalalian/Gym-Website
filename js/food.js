@@ -54,7 +54,7 @@
 
   function resetInput(input) {
     setTimeout(() => {
-      changeInput(input, "placeholder", "Type a food or a meal...");
+      changeInput(input, "placeholder", "Enter a food or a meal...");
     }, 3000);
   }
 
@@ -101,6 +101,7 @@
         </ul>
       </div>
       <div class="card-footer">
+        <p><b>Brand: </b><span>${data.brand || "Not available"}</span></p>
       </div>
     </div>
     `;
