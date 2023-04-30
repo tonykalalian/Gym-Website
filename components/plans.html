@@ -9,7 +9,6 @@
     />
     <script defer src="/your-path-to-fontawesome/js/v4-shims.js"></script>
     <!-- =============== CSS =============== -->
-    <link rel="stylesheet" href="/css/style.css" />
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
@@ -30,6 +29,11 @@
       sizes="16x16"
       href="/images/icons8-gym-ios-16-glyph-16.png"
     />
+      <!--css file-->
+
+      <link rel="stylesheet" href="/css/swiper/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="/css/style.css" />
+      <link rel="stylesheet" href="/css/plans.css" />
   </head>
   <body>
     <!--=============== HEADER ===============-->
@@ -69,13 +73,131 @@
             ></i>
           </ul>
         </div>
-        <!-- button button__header -->
+        <!-- button toggle for smaller screens -->
         <div class="nav__toggle" id="nav-toggle">
           <i class="bx bx-grid-alt"></i>
         </div>
       </nav>
     </header>
- 
+
+  <h1 style="margin-top: 10%; text-align: center;">Select Your Goal</h1>
+
+ <!-- Main workouts here  -->
+ <section id="workout-goals">
+
+ <div class="slider-container swiper">
+  <div class="slider-content">
+    <div class="card-wrapper swiper-wrapper">
+      <div class="card swiper-slide">
+        <div class="image-content">
+          <span class="overlay"></span>
+          <div class="card-image">
+            <img src="https://image.slidesdocs.com/responsive-images/background/health-girl-training-exercise-fitness-lose-weight-yoga-powerpoint-background_634785c5ba__960_540.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card-content">
+          <h2 class="name">Lose weight/fat</h2>
+          <p class="description">
+           Lose weight now for a better,healthier and more confident you
+          </p>
+          <button class="button">Read More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="image-content">
+          <span class="overlay"></span>
+          <div class="card-image">
+            <img src="https://marathonhandbook.com/wp-content/uploads/How-To-Build-Muscle-Fast.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card-content">
+          <h2 class="name">Gain weight/muscle</h2>
+          <p class="description">
+          Build muscle now and improve your fitness with our best training
+          </p>
+          <button class="button">Read More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="image-content">
+          <span class="overlay"></span>
+          <div class="card-image">
+            <img src="https://t4.ftcdn.net/jpg/01/36/21/65/360_F_136216585_9Q7Z20LMcO5KFNADIFEmB4jXLleSfrye.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card-content">
+          <h2 class="name">Aerobics</h2>
+          <p class="description">
+           Aerobics is a sport that helps you build endurance and strength.
+          </p>
+          <button class="button">Read More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="image-content">
+          <span class="overlay"></span>
+          <div class="card-image">
+            <img src="https://www.sltrib.com/resizer/DBt_Dm410kJuG3LRrCTuuN32zXU=/arc-anglerfish-arc2-prod-sltrib/public/W2BRISRNCVFQTBLYPL3NR3XUMY.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card-content">
+          <h2 class="name">Gymnastics</h2>
+          <p class="description">
+            Practice like you've never won. Perform like you've never lost.
+      
+          </p>
+          <button class="button">Read More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="image-content">
+          <span class="overlay"></span>
+          <div class="card-image">
+            <img src="https://hiddengym.net/wp-content/uploads/2019/12/powerlifting.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card-content">
+          <h2 class="name">PowerLifting</h2>
+          <p class="description">
+            Strength doesn't come from what you can do. It comes from you
+          </p>
+          <button class="button">Read More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="image-content">
+          <span class="overlay"></span>
+          <div class="card-image">
+            <img src="https://images.squarespace-cdn.com/content/v1/5c65dce492441bd5f7c7a1aa/91f23bc8-c34d-4a47-a4b7-33ae235c1714/LCCF+-+Homepage+-+2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="card-content">
+          <h2 class="name">Cross-Fit</h2>
+          <p class="description">
+           High-intensity fitness program that combines elements of weightlifting
+          </p>
+          <button class="button">Read More</button>
+        </div>
+      </div>
+
+  
+
+  
+
+    </div>
+  </div>
+
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-next swiper-navBtn"></div>
+  <div class="swiper-button-prev swiper-navBtn"></div>
+</div>
+</section>
+
     <!--=============== FOOTER ===============-->
     <footer class="footer section" id="footer">
       <div class="footer__container container grid">
@@ -127,9 +249,15 @@
           ></a>
         </div>
       </div>
-
-      <p class="footer__copy">&#169 2023<br>All right reserved</p>
+     
+      <p class="footer__copy">&#169 2023<br>All rights reserved</p>
     </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
     <script src="/js/main.js"></script>
+    <script src="/css/swiper/swiper-bundle.min.js"></script>
+
+<script src="/js/app.js"></script>
   </body>
 </html>
