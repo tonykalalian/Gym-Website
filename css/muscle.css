@@ -13,7 +13,19 @@
   text-align: center;
   font-size: 2rem;
 }
+.muscle-groups h1 {
+  margin: -0.5rem -1rem 1rem;
+  padding: 0 1rem 0.75rem;
+  background: #eaeaea;
+  color: #eee;
+  text-align: center;
+  font-size: 1.25rem;
+}
 .muscle-groups .title-muscle > span {
+  font-size: 0.8rem;
+  color: black;
+}
+.muscle-groups h1 > span {
   font-size: 0.8rem;
   color: black;
 }
@@ -26,18 +38,19 @@
 .muscle-groups label + .muscle-type {
   margin-top: 1.5rem;
 }
+
 .muscle-groups label {
-  width: 250px;
+  width: 50px;
   display: block;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   opacity: 0.5;
   position: relative;
   z-index: 200;
   border-left: 5px solid transparent;
   padding-left: 6px;
-  margin-left: -10px;
+  margin-left: -11px;
   transition: 150ms;
 }
 .muscle-groups label:hover,
