@@ -22,7 +22,7 @@
 
   function search(form) {
     const formData = new FormData(form);
-
+//https://api.edamam.com/api/food-database/parser?session=80&app_id=ca747d07&app_key=722fabaee32b8118f7b1cb2e32b137cf&ingr=%3F#
     fetch(
       `https://api.edamam.com/api/food-database/parser?app_id=ca747d07&app_key=722fabaee32b8118f7b1cb2e32b137cf&ingr=${formData.get(
         "name"
